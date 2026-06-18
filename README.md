@@ -39,15 +39,7 @@ The system is built around four use cases:
 | Connectivity | Wi-Fi, BLE, MQTT, Arduino IoT Cloud |
 | Project management | ProjectLibre (Gantt, dependencies, milestones) |
 
-## Repository Structure
 
-```
-[Describe your actual folders here, e.g.:]
-[ /use-case-3-environmental/   Arduino sketch + Python forecasting service ]
-[ /use-case-4-fire-detection/  Arduino sketch + model + data-collection scripts ]
-[ /models/                     trained TinyML models ]
-[ /docs/                       report and diagrams ]
-```
 
 ## Getting Started
 
@@ -59,37 +51,9 @@ The system is built around four use cases:
 - Python [version] for the forecasting service
 - An Arduino IoT Cloud account (for the dashboard)
 
-### Installation
 
-```bash
-# Clone the repository
-git clone [your-repo-url]
-cd [repo-name]
 
-# Install Python dependencies for the forecasting service
-pip install -r requirements.txt   # [add this file, or list packages here]
-```
 
-### Running
-
-```
-[Describe the actual steps, e.g.:]
-1. Flash [sketch name] to the [board] using the Arduino IDE.
-2. Configure Wi-Fi / Arduino IoT Cloud credentials in [file].
-3. Run the forecasting service:  python [script_name].py
-4. Open the Arduino IoT Cloud dashboard to view live data.
-```
-
-## Results
-
-- **Fire detection:** TinyML sensor-fusion model (~10k parameters, ~327 KB deployed) reaching high validation accuracy on a purpose-collected dataset, detecting a controlled flame within two inference cycles.
-- **Environmental monitoring:** live forecasting with amber "predicted-breach" alerts ahead of red "current-breach" alerts, and automatic fan actuation with hysteresis.
-
-> Reported figures are demonstration results on small, custom datasets collected in a single environment, not guarantees of field performance.
-
-## Team
-
-Two-person team. **Anousha Shariati** — IoT Design Engineer (Use Cases 3 & 4, report/slides). [Co-author] — IoT Project Manager (Use Cases 1 & 2).
 
 ## Acknowledgements
 
