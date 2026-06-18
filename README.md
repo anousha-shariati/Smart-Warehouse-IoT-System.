@@ -57,4 +57,4 @@ The system is built around four use cases:
 
 ## Acknowledgements
 
-Developed for COMP8295 – Industrial Applications of IoT, Macquarie University, under [unit convenor].
+Developed for COMP8295 – Industrial Applications of IoT, Macquarie University, under Dr. Adnan Mahmood.
